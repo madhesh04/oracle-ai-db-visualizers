@@ -496,6 +496,9 @@ body.trainer .dock{transform:none;visibility:visible}
 .backlink{font-size:.85rem;color:var(--muted);text-decoration:none;font-weight:600;margin-left:6px}
 .backlink:hover{color:var(--acc)}
 @media (max-width:760px){.backlink{display:none}}
+/* hide scrollbars, keep scrolling */
+.sidebar,pre.sql,.res,.res-scroll,.tblwrap,.cheat-wrap,.nestcode,table.cmp{scrollbar-width:none;-ms-overflow-style:none}
+.sidebar::-webkit-scrollbar,pre.sql::-webkit-scrollbar,.res::-webkit-scrollbar,.res-scroll::-webkit-scrollbar,.tblwrap::-webkit-scrollbar,.cheat-wrap::-webkit-scrollbar,.nestcode::-webkit-scrollbar,table.cmp::-webkit-scrollbar{display:none}
 </style>
 </head>
 <body>

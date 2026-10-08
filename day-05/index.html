@@ -758,6 +758,9 @@ body.trainer .dock{transform:none;visibility:visible}
 .map.three{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media (max-width:1024px){.map.three{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:760px){ .backlink{display:none} table.cmp{display:block;overflow-x:auto} .cmp th,.cmp td{min-width:110px} }
+/* hide scrollbars, keep scrolling */
+.sidebar,pre.sql,.res,.res-scroll,.tblwrap,.cheat-wrap,.nestcode,table.cmp{scrollbar-width:none;-ms-overflow-style:none}
+.sidebar::-webkit-scrollbar,pre.sql::-webkit-scrollbar,.res::-webkit-scrollbar,.res-scroll::-webkit-scrollbar,.tblwrap::-webkit-scrollbar,.cheat-wrap::-webkit-scrollbar,.nestcode::-webkit-scrollbar,table.cmp::-webkit-scrollbar{display:none}
 </style>
 </head>
 <body>
